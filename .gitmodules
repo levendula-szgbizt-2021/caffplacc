@@ -1,0 +1,12 @@
+[submodule "caffplacc-backend"]
+	path = caffplacc-backend
+	url = ../caffplacc-backend
+[submodule "caffplacc-frontend"]
+	path = caffplacc-frontend
+	url = ../caffplacc-frontend
+[submodule "caff"]
+	path = caff
+	url = ../caff
+[submodule "ciff"]
+	path = ciff
+	url = ../ciff
