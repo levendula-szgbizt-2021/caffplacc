@@ -1,0 +1,43 @@
+version: '3'
+services:
+  caffplacc-backend:
+    image: caffplacc-backend
+    ports:
+      - "8081:8081"
+    depends_on:
+      - database
+    volumes:
+      - ./caffplacc-backend/caffplacc-data:/var/lib/caffplacc/
+    networks:
+      - caffplacc-network
+
+  database:
+    image: 'postgres:latest'
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: postgres
+    volumes:
+      - ./db-data/:/var/lib/postgresql/data
+    networks:
+      - caffplacc-network
+
+  frontend:
+    image: caffplacc-frontend
+    build:
+      context: caffplacc-frontend/
+    ports:
+      - "1080:80"
+      - "10443:443"
+    volumes:
+      - ./certs/:/etc/ssl/
+    depends_on:
+      - caffplacc-backend
+    networks:
+      - caffplacc-network
+
+networks:
+  caffplacc-network:
+    driver: bridge
