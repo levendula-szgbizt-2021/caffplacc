@@ -17,7 +17,7 @@ A dokumentáció a wiki oldalakon található, de itt is adunk linkeket, melyek 
 
 A projektre fordított munka megoszlása
 ---------
-| Name                  | Munka aránya   | 
+| Név                  | Munka aránya   | 
 | --------------------- |----------------- | 
 | Gálik Annamária       | 20 %          |
 | Radványi Ákos Péter   | 20 %          |
