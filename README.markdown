@@ -4,6 +4,26 @@ caffplacc
 Számítógép-biztonság (`BUTEVIHIMA06`) házi feladat megoldás  
 _levendula_ csapat
 
+Dokumentáció
+----------
+A dokumentáció a wiki oldalakon található, de itt is adunk linkeket, melyek a végleges verzió kommitjájra mutatnak.
+- [Kliensalkalmazás](https://github.com/levendula-szgbizt-2021/caffplacc/wiki/Kliensalkalmaz%C3%A1s/f5c8b78cc14fd872cf1dfdbb4a0b6fd7d874bbc0)
+- [Alkalmazásszerver](https://github.com/levendula-szgbizt-2021/caffplacc/wiki/Backend-alkalmaz%C3%A1s/4ca928b715f701e787493280aa0e4f51886f06e3)
+- [Natív komponens](https://github.com/levendula-szgbizt-2021/caffplacc/wiki/NativeComponent/ff842e7ba8c5c8209406374f4a7cf913c005d00c)
+    - [Ciff Library](https://github.com/levendula-szgbizt-2021/caffplacc/wiki/CiffLibrary/afae0e01c45d5a24dc5fd3494d04f0320f9ee2e5)
+    - [Ciff CLI](https://github.com/levendula-szgbizt-2021/caffplacc/wiki/CiffCli/6181bf8063dbe9018d967dc7f1aeec5c15494d60)
+    - [Caff Library](https://github.com/levendula-szgbizt-2021/caffplacc/wiki/CaffLibrary/afae0e01c45d5a24dc5fd3494d04f0320f9ee2e5)
+    - [Caff CLI](https://github.com/levendula-szgbizt-2021/caffplacc/wiki/CaffCli/6181bf8063dbe9018d967dc7f1aeec5c15494d60)
+
+A projektre fordított munka megoszlása
+---------
+| Name                  | Munka aránya   | 
+| --------------------- |----------------- | 
+| Gálik Annamária       | 20 %          |
+| Radványi Ákos Péter   | 20 %          |
+| Horváth Lóránt        | 20 %          |
+| Péter Bertalan Zoltán | 20 %          |
+| Márton Botond         | 20 %          |
 
 
 Használat
