@@ -148,7 +148,7 @@ működtetni a rendszert.
 
    ```
    $ cd caffplacc-frontend/
-   $ ng compile
+   $ ng build
    ```
 
 6. Szolgáld ki a következő könvytár tartalmát:
